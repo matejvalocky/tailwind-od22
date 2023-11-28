@@ -534,24 +534,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .h-52 {
   height: 13rem;
 }
 
-.w-4 {
-  width: 1rem;
+.h-screen {
+  height: 100vh;
 }
 
 .w-4\/5 {
@@ -574,19 +570,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[47518b\] {
-  background-color: 47518b;
-}
-
 .bg-\[\#47518b\] {
   --tw-bg-opacity: 1;
   background-color: rgb(71 81 139 / var(--tw-bg-opacity));
@@ -596,13 +579,30 @@ video {
   padding: 1.25rem;
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
+.text-center {
+  text-align: center;
 }
 
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-white {
@@ -628,5 +628,9 @@ body{
 @media (min-width: 768px) {
   .md\:w-\[480px\] {
     width: 480px;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
